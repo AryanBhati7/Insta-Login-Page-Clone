@@ -1,0 +1,424 @@
+*{
+    margin : 0;
+    padding : 0;
+    overflow : auto;
+}
+.main{
+    display : flex;
+    position: relative;
+    height: 650px;
+    width : 100%;
+    margin-top : 32px;
+}
+#phone{
+    position: absolute;
+    left:340px;
+    height : 638px;
+}
+#ss{
+    position: absolute;
+    top : 27px;
+    left: 497px;
+}
+#imageslideshow{
+    position: absolute;
+    top : 27px;
+    left: 497px;
+    height: 540px;
+    width : 250px;
+    background-image: url(ss1.png);
+    animation: changeImage 6s ease-in  infinite;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url(ss1.png);
+    }
+    50%{
+        background-image: url(ss2.png);
+    }
+    100%{
+        background-image: url(ss3.png);
+    } 
+}
+.loginbox{
+    display : flex;
+    flex-direction: column;
+    height: 400px;
+    width: 345px;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid rgb(149, 149, 149,0.4);
+    position: absolute;
+    top:20px;
+    left:800px;
+}
+#title{
+    height : 50px;
+    width : 170px;
+    position: absolute;
+    top : 50px;
+    left : 90px;
+}
+.input{
+    background-color: #fafafa;
+    border: 1px solid rgb(149, 149, 149,0.4);
+    height : 35px;
+    width : 260px;
+    position: relative;
+    top : 145px;
+    left: 40px;
+    margin-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#loginbutton{
+    background-color: #4bb4f8;
+    color : white;
+    height : 32px;
+    width : 260px;
+    border-radius: 7px;
+    border-color: #4bb4f8;
+    position : relative;
+    top : 155px;
+    left: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    font-weight:600;
+    font-size : 16px;
+}
+#or{
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    position : relative;
+    top : 170px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color : rgb(149, 149, 149,1);
+}
+a{
+    text-decoration: none;
+}
+#fblink{
+    color : #385185;
+    text-align: center;
+    position: relative;
+    top : 195px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fbicon{
+    position: relative;
+    top : 178px;
+    left : 79px;
+    height : 16px;
+    width: 16px;
+    
+}
+#forgotpass{
+    color : #385185;
+    text-align: center;
+    position: relative;
+    top : 195px;
+    font-weight: 100;
+    font-size : 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signup{
+    height: 65px;
+    width: 345px;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid rgb(149, 149, 149,0.4);
+    position: absolute;
+    top:430px;
+    left: 800px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Signup{
+    font-weight: 550;
+    color: #1fa2f6;
+}
+.app{
+    height: 90px;
+    width: 345px;
+    position: absolute;
+    top:506px;
+    left: 800px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.gettheapp{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top : 5px;
+}
+.appimg{
+    height : 40px;
+    width : 10px;
+}
+#gplay, #microsoft{
+    height: 40px;
+    margin-right: 5px;
+}
+#microsoft{
+    position: absolute;
+    top : 35px;
+    left : 190px;
+}
+#gplay{
+    position: absolute;
+    top : 35px;
+    left : 50px;
+}
+.footer{
+    margin-top : 0px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width : 100vw;
+    height: 90px;
+    bottom: 0px;
+}
+.linksdiv{
+    display: flex;
+    justify-content: center;
+    width : 100vw;
+    height: 23px;
+    position: absolute;
+    top:20px;
+}
+.links{
+    color : rgb(103, 103, 103);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size : 14px;
+    margin-right:  15px;
+    font-weight: 200;
+}
+.copyright{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top : 58px;
+    font-size: 14px;
+    color : rgb(103, 103, 103);
+}
+
+/* Making it reponsive for all devices */
+
+@media  (max-width : 900px) {
+    *{
+        margin : 0;
+        padding : 0;
+        overflow : auto;
+    }
+    .main{
+        display : flex;
+        position: relative;
+        height: 650px;
+        width : 100%;
+        margin-top : 32px;
+    }
+    #phone{
+        position: absolute;
+        left:340px;
+        height : 638px;
+    }
+    #ss{
+        position: absolute;
+        top : 27px;
+        left: 497px;
+    }
+    #imageslideshow{
+        position: absolute;
+        top : 27px;
+        left: 497px;
+        height: 540px;
+        width : 250px;
+        background-image: url(ss1.png);
+        animation: changeImage 6s ease-in  infinite;
+    }
+    @keyframes changeImage {
+        0%{
+            background-image: url(ss1.png);
+        }
+        50%{
+            background-image: url(ss2.png);
+        }
+        100%{
+            background-image: url(ss3.png);
+        } 
+    }
+    .loginbox{
+        display : flex;
+        flex-direction: column;
+        height: 400px;
+        width: 345px;
+        z-index: 10;
+        background-color: white;
+        border: 1px solid rgb(149, 149, 149,0.4);
+        position: absolute;
+        top:20px;
+        left:800px;
+    }
+    #title{
+        height : 50px;
+        width : 170px;
+        position: absolute;
+        top : 50px;
+        left : 90px;
+    }
+    .input{
+        background-color: #fafafa;
+        border: 1px solid rgb(149, 149, 149,0.4);
+        height : 35px;
+        width : 260px;
+        position: relative;
+        top : 145px;
+        left: 40px;
+        margin-bottom: 5px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #loginbutton{
+        background-color: #4bb4f8;
+        color : white;
+        height : 32px;
+        width : 260px;
+        border-radius: 7px;
+        border-color: #4bb4f8;
+        position : relative;
+        top : 155px;
+        left: 40px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: none;
+        font-weight:600;
+        font-size : 16px;
+    }
+    #or{
+        text-transform: uppercase;
+        justify-content: center;
+        text-align: center;
+        position : relative;
+        top : 170px;
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        color : rgb(149, 149, 149,1);
+    }
+    a{
+        text-decoration: none;
+    }
+    #fblink{
+        color : #385185;
+        text-align: center;
+        position: relative;
+        top : 195px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #fbicon{
+        position: relative;
+        top : 178px;
+        left : 85px;
+        height : 16px;
+        width: 16px;
+    }
+    #forgotpass{
+        color : #385185;
+        text-align: center;
+        position: relative;
+        top : 195px;
+        font-weight: 100;
+        font-size : 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .signup{
+        height: 65px;
+        width: 345px;
+        z-index: 10;
+        background-color: white;
+        border: 1px solid rgb(149, 149, 149,0.4);
+        position: absolute;
+        top:430px;
+        left: 800px;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #Signup{
+        font-weight: 550;
+        color: #1fa2f6;
+    }
+    .app{
+        height: 90px;
+        width: 345px;
+        position: absolute;
+        top:506px;
+        left: 800px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .gettheapp{
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        top : 5px;
+    }
+    .appimg{
+        height : 40px;
+        width : 10px;
+    }
+    #gplay, #microsoft{
+        height: 40px;
+        margin-right: 5px;
+    }
+    #microsoft{
+        position: absolute;
+        top : 35px;
+        left : 190px;
+    }
+    #gplay{
+        position: absolute;
+        top : 35px;
+        left : 50px;
+    }
+    .footer{
+        margin-top : 0px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width : 100vw;
+        height: 90px;
+        bottom: 0px;
+    }
+    .linksdiv{
+        display: flex;
+        justify-content: center;
+        width : 100vw;
+        height: 23px;
+        position: absolute;
+        top:20px;
+    }
+    .links{
+        color : rgb(103, 103, 103);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size : 14px;
+        margin-right:  15px;
+        font-weight: 200;
+    }
+    .copyright{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        top : 58px;
+        font-size: 14px;
+        color : rgb(103, 103, 103);
+    }
+}
