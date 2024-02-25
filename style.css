@@ -29,6 +29,7 @@
   background-image: url(images/ss1.png);
   animation: changeImage 6s ease-in infinite;
 }
+/* Animate */
 @keyframes changeImage {
   0% {
     background-image: url(images/ss1.png);
