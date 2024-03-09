@@ -33,8 +33,6 @@ The website is hosted at: 👉 [Instagram Login Page Clone](https://instalogin-c
 - HTML
 - CSS
 
-You can check out my clone at the link provided above. 👆
-
 ## Description 📝
 
 The Instagram Login Page Clone is a static website that replicates the design and layout of the Instagram login page. It aims to provide a similar user experience as the original website, with a clean and responsive interface. 📱💻
