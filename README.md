@@ -8,7 +8,7 @@ This project is a clone of the Instagram login page, built using HTML and CSS. I
 
 ## Deployed Link 🌐
 
-The website is hosted at: 👉 [Instagram Login Page Clone](https://instagram-login-clone.vercel.app)
+The website is hosted at: 👉 [Instagram Login Page Clone](https://instalogin-clone.vercel.app)
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/Instagram-Login-Clone.git
+git clone https://github.com/AryanBhati7/Instagram-Login-Page-Clone.git
 ```
 
 2. Navigate to the project directory:
